@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.company.Entities.Buyers</node>
+    <node x="464.3149038461538" y="324.0">com.company.Repository.IRepository</node>
+    <node x="241.0706654456655" y="346.0">com.company.Database.DB</node>
+    <node x="289.43044108669113" y="55.0">com.company.Entities.Delivery</node>
+    <node x="426.8206654456655" y="912.0">com.company.Main</node>
+    <node x="434.3206654456655" y="719.0">com.company.App</node>
+    <node x="818.8831654456656" y="0.0">com.company.Entities.Sellers</node>
+    <node x="546.8831654456656" y="11.0">com.company.Entities.Suppliers</node>
+    <node x="0.0" y="1011.0">com.company.lib</node>
+    <node x="451.50694444444446" y="515.0">com.company.Repository.Repository</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Repository.Repository" target="com.company.Database.DB">
+      <point x="-37.111111111111086" y="-72.0" />
+      <point x="497.89583333333337" y="475.0" />
+      <point x="340.0706654456655" y="475.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.App">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="com.company.Repository.Repository" target="com.company.Entities.Delivery">
+      <point x="-55.66666666666674" y="-72.0" />
+      <point x="479.3402777777777" y="485.0" />
+      <point x="230.5706654456655" y="485.0" />
+      <point x="230.5706654456655" y="304.0" />
+      <point x="343.80544108669113" y="304.0" />
+      <point x="-18.125" y="72.0" />
+    </edge>
+    <edge source="com.company.Repository.Repository" target="com.company.Entities.Buyers">
+      <point x="-74.22222222222217" y="-72.0" />
+      <point x="460.7847222222223" y="495.0" />
+      <point x="160.625" y="495.0" />
+      <point x="32.125" y="127.0" />
+    </edge>
+    <edge source="com.company.Repository.IRepository" target="com.company.Entities.Sellers">
+      <point x="62.625" y="-60.5" />
+      <point x="610.4399038461538" y="304.0" />
+      <point x="853.2581654456656" y="304.0" />
+      <point x="-103.125" y="127.0" />
+    </edge>
+    <edge source="com.company.App" target="com.company.Repository.Repository">
+      <point x="0.0" y="-71.5" />
+      <point x="501.8206654456655" y="699.0" />
+      <point x="493.25694444444446" y="699.0" />
+      <point x="-41.75" y="72.0" />
+    </edge>
+    <edge source="com.company.Repository.Repository" target="com.company.Entities.Sellers">
+      <point x="55.66666666666663" y="-72.0" />
+      <point x="590.6736111111111" y="485.0" />
+      <point x="979.7581654456656" y="485.0" />
+      <point x="979.7581654456656" y="304.0" />
+      <point x="922.0081654456656" y="304.0" />
+      <point x="-34.375" y="127.0" />
+    </edge>
+    <edge source="com.company.Repository.IRepository" target="com.company.Entities.Delivery">
+      <point x="-20.875" y="-60.5" />
+      <point x="526.9399038461538" y="274.0" />
+      <point x="416.30544108669113" y="274.0" />
+      <point x="54.375" y="72.0" />
+    </edge>
+    <edge source="com.company.App" target="com.company.Entities.Buyers">
+      <point x="-38.571428571428555" y="-71.5" />
+      <point x="463.24923687423694" y="689.0" />
+      <point x="118.43044108669113" y="689.0" />
+      <point x="118.43044108669113" y="294.0" />
+      <point x="96.375" y="294.0" />
+      <point x="-32.125" y="127.0" />
+    </edge>
+    <edge source="com.company.App" target="com.company.Entities.Delivery">
+      <point x="-19.285714285714334" y="-71.5" />
+      <point x="482.53495115995116" y="679.0" />
+      <point x="149.625" y="679.0" />
+      <point x="149.625" y="294.0" />
+      <point x="307.55544108669113" y="294.0" />
+      <point x="-54.375" y="72.0" />
+    </edge>
+    <edge source="com.company.App" target="com.company.Entities.Sellers">
+      <point x="57.85714285714289" y="-71.5" />
+      <point x="559.6778083028084" y="699.0" />
+      <point x="1001.7581654456656" y="699.0" />
+      <point x="1001.7581654456656" y="304.0" />
+      <point x="1059.5081654456653" y="304.0" />
+      <point x="103.12499999999994" y="127.0" />
+    </edge>
+    <edge source="com.company.Repository.Repository" target="com.company.Repository.IRepository">
+      <point x="0.0" y="-72.0" />
+      <point x="535.0069444444445" y="495.0" />
+      <point x="547.8149038461538" y="495.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="com.company.App" target="com.company.Entities.Suppliers">
+      <point x="38.571428571428555" y="-71.5" />
+      <point x="540.392094017094" y="689.0" />
+      <point x="754.4987026862027" y="689.0" />
+      <point x="754.4987026862027" y="294.0" />
+      <point x="767.3831654456654" y="294.0" />
+      <point x="94.49999999999994" y="116.0" />
+    </edge>
+    <edge source="com.company.Repository.Repository" target="com.company.Entities.Suppliers">
+      <point x="37.111111111111086" y="-72.0" />
+      <point x="572.1180555555555" y="475.0" />
+      <point x="709.4456654456654" y="475.0" />
+      <point x="709.4456654456654" y="294.0" />
+      <point x="704.3831654456656" y="294.0" />
+      <point x="31.5" y="116.0" />
+    </edge>
+    <edge source="com.company.Repository.IRepository" target="com.company.Entities.Suppliers">
+      <point x="20.875" y="-60.5" />
+      <point x="568.6899038461538" y="304.0" />
+      <point x="578.3831654456656" y="304.0" />
+      <point x="-94.5" y="116.0" />
+    </edge>
+    <edge source="com.company.Repository.IRepository" target="com.company.Entities.Buyers">
+      <point x="-62.625" y="-60.5" />
+      <point x="485.1899038461538" y="284.0" />
+      <point x="224.875" y="284.0" />
+      <point x="96.375" y="127.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="648.8333333333331" y="508.66666666666663" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
